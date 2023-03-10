@@ -1,0 +1,25 @@
+@media only screen and (max-width:576px){
+ .login-form .row .col-md-5 img{
+    display: none;
+ }   
+ .login-form{
+   width: 70% !important;
+ }
+ .register-form{
+   width: 80% !important;
+ }
+ .register-form .row .col-md-2 p{
+   margin: 10px 0 0 0;
+}
+.register-form .reg-btn{
+   margin-top: 10px;
+}
+.banner-box #owl-one .item .shopping-banner{
+   display: none !important;
+}
+}
+@media only screen and (min-width: 767px) and (max-width: 1080px){
+   .login-form{
+      width: 80% !important;
+   }
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+     <!-- Bootstrap css core -->
+     <link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css" />
+
+     <!-- owlcarousel -->
+       <link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.min.css">
+       <link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.min.css">
+     
+       <!-- Icon - fontawesome -->
+       <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+       crossorigin="anonymous"
+       referrerpolicy="no-referrer"
+     />
+     <!-- Homepages responsive -->
+     <link rel="stylesheet" href="assets/css/contacts-responsive.css">
+     <!-- HomePage-- CSS -->
+     <link rel="stylesheet" href="assets/css/contacts.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header -start -->
+        <div class="header-container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="../final-project/index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                </div>
+                <ul class="col-md-8">
+                  <li onclick="location.href='../final-project/index.html'">Home</li>
+                  <li onclick="location.href='../final-project/products.html'">Shopping</li>
+                  <li onclick="location.href='../final-project/grooming.html'">Grooming</li>
+                  <li onclick="location.href='../final-project/contacts.html'">Contacts</li>
+                </ul>
+                <div class="col-md-2">
+                    <button class="btn" type="submit">
+                        <i class="fa-solid fa-user"></i>Login
+                      </button>
+                    <div class="fav-item-icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="cart-icon">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="navbar navbar-expand-sm\ navbar-dark">
+                    <div class="container-fluid">
+                        <a href=""><img src="assets/images/logo.png" alt="logo"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Shopping</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Favorites</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <!-- header -end -->
+        <!-- breadcrumb -->
+        <nav class="nav-bc" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contacts</li>
+        </ol>
+        </nav>
+        <!-- contacts-start -->
+        <div class="container" id="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <h3>Drop a line</h3>
+                    <form>
+                      <div class="form-contacts">
+                        <label for="name">Your name <span>*</span></label>
+                        <input type="text" required>
+                      </div>
+                      <div class="form-contacts">
+                        <label for="name">Phone number <span>*</span></label>
+                        <input type="number" required>
+                      </div>
+                      <div class="form-contacts">
+                        <label for="name">Messages</label>
+                        <input type="text" >
+                      </div>
+                      <div class="form-contacts">
+                        <input type="checkbox" required>
+                        <p>I agree that my submitted data is being collected and stored.</p>
+                      </div>
+                      <div class="form-btn">
+                        <button id="btn">Send message</button>
+                      </div>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h4>Contacts</h4>
+                    <p><i class="fa-solid fa-envelope"></i>grooming@info.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0972.982.826</p>
+                    <p><i class="fa-solid fa-location-dot"></i>New York, Rockaway 7</p>
+                </div>
+            </div>
+        </div>
+        <!-- contacts-end -->
+        <!-- modal box-start -->
+        <div id="modal-box">
+            <h4>Thank you</h4>
+            <p>For choosing our service ! We will contact you to confirm your oppointment. </p>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <button onclick="location.href='../final-project/index.html'">Homepage</button>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <button onclick="location.href='../final-project/products.html'">Take a look our shop</button>
+                </div>
+            </div>
+        </div>
+        <!-- modal box-end -->
+         <!--  footer - start -->
+         <div class="footer">
+            <div class="row">
+              <div class=" col-sm-12 col-md-6">
+                <a href=""><img src="assets/images/logo 1.png" alt="logo"></a>
+                <div class="footer-newsletter">
+                  <p>Newsletter</p>
+                  <form>
+                    <input
+                      class="ip-box"
+                      type="text"
+                      placeholder="Enter your email here..."
+                      required
+                    />
+                    <button class="search-btn">
+                      <i class="fa-solid fa-envelope"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="footer-fl-us">
+                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+              </div>
+              <div class=" col-sm-6 col-md-3">
+                <p>Infomations</p>
+                <ul>
+                  <li>Contact us</li>
+                  <li>Shipping & Return</li>
+                  <li>Privacy notice</li>
+                  <li>About us</li>
+                </ul>
+              </div>
+              <div class=" col-sm-6 col-md-3">
+                <p>My Account</p>
+                <ul>
+                  <li>Customer info</li>
+                  <li>Address</li>
+                  <li>Order</li>
+                  <li>Wishlist</li>
+                </ul>
+              </div>
+              
+             
+            </div>
+           </div>
+           
+        <!--  footer - end -->
+        <div class="bg-overlay"></div>
+
+    </div>
+
+
+
+ <!-- Jquery -->
+ <script src="library/jquery-3.6.0.min.js"></script>
+ <!-- owl carousel- js -->
+ <script src="library/owlcarousel/owl.carousel.min.js"></script>
+ <!-- Bootstrap js core -->
+ <script src="library/bootstrap/js/bootstrap.bundle.js"></script>
+ <!-- Homepages- js -->
+ <script src="assets/js/owlcarousel.js"></script>
+ <script src="../final-project/assets/js/contacts.js"></script>
+</body>
+</html>

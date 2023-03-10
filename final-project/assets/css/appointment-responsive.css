@@ -1,0 +1,19 @@
+@media only screen and (max-width:767px){
+    .header-container .row:first-child{
+        display: none;
+    }
+}
+@media only screen and (max-width:576px){
+    .footer .row .col-md-3{
+        margin-top:10px;
+        align-items: center;
+    }
+}
+@media only screen and (min-width:767px) {
+    .header-container .row:last-child, .header-container nav.nav-bar{
+        display: none;
+    }
+    .header-container{
+        margin-top:5px;
+    }
+}

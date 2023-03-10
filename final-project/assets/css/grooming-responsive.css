@@ -1,0 +1,61 @@
+@media only screen and (max-width:767px){
+    .header-container .row:first-child{
+        display: none;
+    }
+}
+@media only screen and (max-width:576px){
+    .footer .row .col-md-3{
+        margin-top:10px;
+    }
+    #owl-three .item{
+        height: 300px !important;
+    }
+    #owl-three .item:first-child h4{
+        font-size: 32px !important;
+    }
+    #owl-three .item:first-child p{
+        font-size: 18px !important;
+    }
+    #owl-three .item:first-child button{
+        font-size: 16px !important;
+        padding: 5px 10px !important;
+    }
+}
+@media only screen and (min-width:767px) {
+    .header-container .row:last-child, .header-container nav.nav-bar{
+        display: none;
+    }
+    .header-container{
+        margin-top:5px;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 1180px){
+    .header-container .row .col-md-2:last-child{
+        padding-left: 0;
+    }
+    .header-container .col-md-2:last-child .btn{
+        font-size: 14px !important;
+        padding: 0 5px;
+    }
+    .header-container .col-md-2:first-child{
+        transform: scale(0.76);
+    }
+    #owl-three .item:first-child{
+        height: 350px !important;
+    }
+    #owl-three .item:first-child h4{
+        font-size: 35px !important;
+    }
+    #owl-three .item:first-child p{
+        font-size: 24px !important;
+    }
+    .stories-wrap .col-md-8 p{
+        font-size: 16px !important;
+    }
+    .grooming-services .row .col-md-3 h3{
+        font-size: 20px !important;
+    }
+    .grooming-services .row .col-md-3 p{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap css core -->
+    <link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css" />
+
+    <!-- owlcarousel -->
+      <link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.min.css">
+    
+      <!-- Icon - fontawesome -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- dog-shop responsive -->
+    <link rel="stylesheet" href="assets/css/homepages-responsive.css">
+    <!-- dog-shop-- CSS -->
+    <link rel="stylesheet" href="assets/css/dog-shop.css" />
+</head>
+<body>
+    <div class="wrapper">
+              <!-- Header-- start -->
+              <div class="header-container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a href="../final-project/index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                    </div>
+                    <ul class="col-md-8">
+                      <li onclick="location.href='../final-project/index.html'">Home</li>
+                      <li onclick="location.href='../final-project/products.html'">Shopping</li>
+                      <li onclick="location.href='../final-project/grooming.html'">Grooming</li>
+                      <li onclick="location.href='../final-project/contacts.html'">Contacts</li>
+                    </ul>
+                    <div class="col-md-2">
+                        <button onclick="location.href='../final-project/login.html'" class="btn" type="submit">
+                            <i class="fa-solid fa-user"></i>Login
+                          </button>
+                        <div class="fav-item-icon">
+                          <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="cart-icon">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span>3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <nav class="navbar navbar-expand-sm\ navbar-dark">
+                        <div class="container-fluid">
+                            <a href=""><img src="assets/images/logo.png" alt="logo"></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="../final-project/products.html">Shopping</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../final-project/blogs.html">Blog</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../final-project/contacts.html">Contacts</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="../final-project/login.html">Login</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Cart</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Favorites</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+    <!-- Header-- end -->
+
+   <div class="content-wrapper">
+     <!-- banner -start -->
+     <div class="banner">
+        <div class="row">
+            <div class="col-sm-10 col-md-5">
+                <h4>The dog shop</h4>
+                <p>Every thing your dog need. From treats to toy to walks.</p>
+                </div>
+        </div>
+       
+    </div>
+    <!-- banner -end -->
+    
+   <!-- breadcumb-start -->
+   <nav class="nav-bc" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="../final-project/index.html">Home</a></li>
+      <li class="breadcrumb-item"><a href="../final-project/products.html">Shopping</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Dog things</li>
+    </ol>
+    </nav>
+    <!-- breadcumb -end -->
+    <!-- cart-start -->
+    <div class="shopping-cart">
+      <div class="escape-btn">
+        <span><i class="fa-solid fa-xmark"></i></span>
+      </div>
+      <h2>Cart</h2>
+      <form action="">
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Select</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+  
+          </tbody>
+        </table>
+        <div class="cart-total-price">
+          <p>Total: <span></span></p>
+          <a href="../final-project/checkout.html">Checkout</a>
+        </div>
+      </form>
+    </div>
+ 
+      <!-- cart-end -->
+      
+    <!-- dog-products-stats -->
+    <div class="dog-things">
+        <div class="row">
+            <div class="col-sm-12 col-md-3">
+                <div class="product-filter">
+                    <h5>Price filter</h5>
+                    <div class="filter-bar">
+                        <div class="dot"></div>
+                        <div class="bar"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <p>Price: <span class="min">$1</span> - <span class="max">$300</span></p>
+                </div>
+                <div class="brands">
+                    <form>
+                        <div class="brand">
+                            <input type="checkbox">
+                            <label for="brand">Purina Pro Plan</label>
+                        </div>
+                        <div class="brand">
+                            <input type="checkbox">
+                            <label for="brand">Pedigree</label>
+                        </div>
+                        <div class="brand">
+                            <input type="checkbox">
+                            <label for="brand">Royal Canin</label>
+                        </div>
+                        <div class="brand">
+                            <input type="checkbox">
+                            <label for="brand">Hill's Science Diet</label>
+                        </div>
+                        <div class="brand">
+                            <input type="checkbox">
+                            <label for="brand">Purina One</label>
+                        </div>
+                        <a href="">+ 32 more</a>
+                    </form>
+                </div>
+                <div class="category">
+                    <h5>Category</h5>
+                    <div class="category-tab" id="drop-menu">
+                        <span>Food<i class="fa-solid fa-angle-down"></i></span>
+                        <ul id ="tab-detail">
+                            <li>Dry food</li>
+                            <li>Wet food</li>
+                            <li>Premium food</li>
+                            <li>Treats</li>
+                        </ul>
+                    </div>
+                    <div class="category-tab">
+                        <span>Toy</span>
+                    </div>
+                    <div class="category-tab">
+                        <span>Shower</span>
+                    </div>
+                    <div class="category-tab">
+                        <span>Accessories</span>
+                    </div>
+                    <div class="category-tab">
+                        <span>Pharmacy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-9">
+                <div class="sort-box">
+                    <div class="sort-tab" id="sort-menu">
+                        <span>Default sorting<i class="fa-solid fa-angle-down"></i></span>
+                        <ul id="sort-tab">
+                            <li>Default sorting</li>
+                            <li>Sort by Popularity</li>
+                            <li>Sort by Lastest</li>
+                            <li>Sort by Price: Low to High</li>
+                            <li>Sort by Price: High to Low</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                        <img onclick="location.href='../final-project/product-detail.html'" src="../final-project/assets/images/hot-deal01.png" alt="food">
+                        <a href="../final-project/product-detail.html">NUTRABONE Chicken Snack</a>
+                        <span>$6</span>
+                        <div class="foot">
+                            <span><i class="fa-solid fa-eye"></i>1.4k</span>
+                            <div class="footer-btn">
+                                <button><i class="fa-solid fa-heart"></i></button>
+                                <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-12 col-md-3">
+                    <img onclick="location.href='../final-project/product-detail.html'" src="../final-project/assets/images/hot-deal02.png" alt="food">
+                    <a href="../final-project/product-detail.html">VEGEBRAND Chew Beef Flavor</a>
+                    <span>$4</span>
+                    <div class="foot">
+                        <span><i class="fa-solid fa-eye"></i>1.4k</span>
+                        <div class="footer-btn">
+                            <button><i class="fa-solid fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <img onclick="location.href='../final-project/product-detail.html'" src="../final-project/assets/images/hot-deal03.png" alt="food">
+                    <a href="../final-project/product-detail.html">VEGEBRAND Spiral Beauty Lux Cout</a>
+                    <span>$13</span>
+                    <div class="foot">
+                        <span><i class="fa-solid fa-eye"></i>1.4k</span>
+                        <div class="footer-btn">
+                            <button><i class="fa-solid fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <img onclick="location.href='../final-project/product-detail.html'" src="../final-project/assets/images/hot-deal04.png" alt="food">
+                    <a href="../final-project/product-detail.html">Sausage JERHIGH Chicken $ Pork</a>
+                    <span>$3</span>
+                    <div class="foot">
+                        <span><i class="fa-solid fa-eye"></i>1.4k</span>
+                        <div class="footer-btn">
+                            <button><i class="fa-solid fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <img onclick="location.href='../final-project/product-detail.html'" src="../final-project/assets/images/hot-deal05.png" alt="food">
+                    <a href="../final-project/product-detail.html">Pate IRIS Delicacy Tuna Crab</a>
+                    <span>$8</span>
+                    <div class="foot">
+                        <span><i class="fa-solid fa-eye"></i>1.4k</span>
+                        <div class="footer-btn">
+                            <button><i class="fa-solid fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <img onclick="location.href='../final-project/product-detail.html'" src="../final-project/assets/images/hot-deal06.png" alt="food">
+                    <a href="../final-project/product-detail.html">BBN Cheese Slices</a>
+                    <span>$4</span>
+                    <div class="foot">
+                        <span><i class="fa-solid fa-eye"></i>1.4k</span>
+                        <div class="footer-btn">
+                            <button><i class="fa-solid fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <img onclick="location.href='../final-project/product-detail.html'" src="../final-project/assets/images/hot-deal07.png" alt="food">
+                    <a href="../final-project/product-detail.html">TRIXIE Natural-Oil Shampoo for Dog</a>
+                    <span>$16</span>
+                    <div class="foot">
+                        <span><i class="fa-solid fa-eye"></i>1.4k</span>
+                        <div class="footer-btn">
+                            <button><i class="fa-solid fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <img onclick="location.href='../final-project/product-detail.html'" src="../final-project/assets/images/hot-deal08.png" alt="food">
+                    <a href="../final-project/product-detail.html">JOYCE & DOLLS Lotus Fluffy shamoo for Cat</a>
+                    <span>$13</span>
+                    <div class="foot">
+                        <span><i class="fa-solid fa-eye"></i>1.4k</span>
+                        <div class="footer-btn">
+                            <button><i class="fa-solid fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+    <!-- dog-products-end -->
+   
+   </div>
+   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- products footer -start -->
+    <div class="footer">
+        <div class="row">
+          <div class=" col-sm-12 col-md-6">
+            <a href=""><img src="assets/images/logo 1.png" alt="logo"></a>
+            <div class="footer-newsletter">
+              <p>Newsletter</p>
+              <form>
+                <input
+                  class="ip-box"
+                  type="text"
+                  placeholder="Enter your email here..."
+                  required
+                />
+                <button class="search-btn">
+                  <i class="fa-solid fa-envelope"></i>
+                </button>
+              </form>
+            </div>
+            <div class="footer-fl-us">
+                <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+          </div>
+          <div class=" col-sm-6 col-md-3">
+            <p>Infomations</p>
+            <ul>
+              <li>Contact us</li>
+              <li>Shipping & Return</li>
+              <li>Privacy notice</li>
+              <li>About us</li>
+            </ul>
+          </div>
+          <div class=" col-sm-6 col-md-3">
+            <p>My Account</p>
+            <ul>
+              <li>Customer info</li>
+              <li>Address</li>
+              <li>Order</li>
+              <li>Wishlist</li>
+            </ul>
+          </div>
+          
+         
+        </div>
+    </div>
+    <!-- products footer - end -->
+    </div>
+
+
+
+
+ <!-- Jquery -->
+ <script src="library/jquery-3.6.0.min.js"></script>
+ <!-- owl carousel- js -->
+ <script src="library/owlcarousel/owl.carousel.min.js"></script>
+ <!-- Bootstrap js core -->
+ <script src="library/bootstrap/js/bootstrap.bundle.js"></script>
+ <!-- Homepages- js -->
+ <script src="assets/js/owlcarousel.js"></script>    
+ <script src="../final-project/assets/js/dog.js"></script>
+</body>
+</html>

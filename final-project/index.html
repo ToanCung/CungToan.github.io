@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+
+    <!-- Bootstrap css core -->
+    <link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css" />
+
+    <!-- owlcarousel -->
+      <link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.min.css">
+    
+      <!-- Icon - fontawesome -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Homepages responsive -->
+    <link rel="stylesheet" href="assets/css/homepages-responsive.css">
+    <!-- HomePage-- CSS -->
+    <link rel="stylesheet" href="assets/css/homepages-style.css" />
+  </head>
+  <body>
+   <div class="wrapper">
+     <!-- Header-- start -->
+      <!-- Header-- start -->
+      <div class="header-container">
+        <div class="row">
+            <div class="col-md-2">
+                <a href="../final-project/index.html"><img src="assets/images/logo.png" alt="logo"></a>
+            </div>
+            <ul class="col-md-8">
+              <li onclick="location.href='../final-project/index.html'">Home</li>
+              <li onclick="location.href='../final-project/products.html'">Shopping</li>
+              <li onclick="location.href='../final-project/grooming.html'">Grooming</li>
+              <li onclick="location.href='../final-project/contacts.html'">Contacts</li>
+            </ul>
+            <div class="col-md-2">
+                <button onclick="location.href='../final-project/login.html'" class="btn" type="submit">
+                    <i class="fa-solid fa-user"></i>Login
+                  </button>
+                <div class="fav-item-icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="cart-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-expand-sm\ navbar-dark">
+                <div class="container-fluid">
+                    <a href=""><img src="assets/images/logo.png" alt="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../final-project/products.html">Shopping</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../final-project/blogs.html">Blog</a>
+                      </li>
+                      <li class="nav-item"">
+                        <a class="nav-link" href="../final-project/contacts.html">Contacts</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../final-project/login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Favorites</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <!-- Header-- end -->
+
+    <!-- Banner-- start -->
+    <div class="banner-box">
+      <div id="owl-one" class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="shopping-banner">
+            <div class="banner-content">
+              <p>Where being pet is just a best</p>
+              <button onclick="location.href='../final-project/products.html'">
+                Shopping now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item"><h4>3</h4></div>
+    </div>
+    </div>
+    <!-- Banner-- end -->
+    
+    <!-- homepages-mainbox- start -->
+    <!-- card- bstrap - start -->
+    <div class="card-container">
+      <div class="row">
+        <div class="col-4 col-sm-12 col-md-4 col-lg-4" style="width: 18rem;">
+          <img onclick="location.href='../final-project/products.html'" src="../final-project/assets/images/shopping.png" class="card-img-top" alt="shopping">
+          <div class="card-body">
+            <h5 class="card-title">Shopping</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="../final-project/products.html" class="btn ">Go detail</a>
+          </div>
+        </div>
+
+        <div class="col-4 col-sm-12 col-md-4 col-lg-4" style="width: 18rem;">
+          <img onclick="location.href='../final-project/grooming.html'" src="../final-project/assets/images/grooming.png" class="card-img-top" alt="grooming">
+          <div class="card-body">
+            <h5 class="card-title">Grooming</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="../final-project/grooming.html" class="btn">Go detail</a>
+          </div>
+        </div>
+
+        <div class="col-4 col-sm-12 col-md-4 col-lg-4" style="width: 18rem;">
+          <img src="../final-project/assets/images/foster.png" class="card-img-top" alt="foster">
+          <div class="card-body">
+            <h5 class="card-title">Foster</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn ">Go detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- card- bstrap - end -->
+
+    <!-- blog-start -->
+    <div class="blog-container">
+      <h3>Blog</h3>
+      <div class="row">
+        <div class=" col-sm-12 col-md-5">
+          <div class="blog-content">
+            <div class="blog-info">
+              <p>17 Dangerous Foods Your Dog Should Never Eat</p>
+              <div class="blogger-info">
+                <img src="../final-project/assets/images/blogger-avt2.png" alt="user-avatar">
+                <p>John Brown</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-12 col-md-5">
+          <div class="blog-content">
+            <div class="blog-info">
+              <p>15 Cat Statistics All Pet Lovers Should Know in 2022</p>
+              <div class="blogger-info">
+                <img src="../final-project/assets/images/blogger-avt.png" alt="user-avatar">
+                <p>John Brown</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blog-footer">
+        <a href="../final-project/blogs.html">Read more <i class="fa-solid fa-angles-right"></i></a>
+      </div>
+    </div>
+    <!-- blog-end -->
+
+    <!-- Picture box-start -->
+     <div class="pic-box-wrap">
+      <h3>Picture of the day</h3>
+      <div id="owl-two" class="owl-carousel pic-box owl-theme">
+        <div class="item">
+          <img src="../final-project/assets/images/pic-of-day01.png" alt="pet">
+        </div>
+        <div class="item">
+          <img src="../final-project/assets/images/pic-of-day02.png" alt="pet">
+        </div>
+        <div class="item">
+          <img src="../final-project/assets/images/pic-of-day03.png" alt="pet">
+        </div>
+        <div class="item">
+          <img src="../final-project/assets/images/pic-of-day04.png" alt="pet">
+        </div>
+        <div class="item">
+          <img src="../final-project/assets/images/pic-of-day05.png" alt="pet">
+        </div>
+      </div>
+     </div>
+    <!-- Picture box-end -->
+     <!-- homepages-mainbox- end -->
+     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+     <!--  footer -start -->
+     <div class="footer">
+      <div class="row">
+        <div class=" col-sm-12 col-md-6">
+          <a href=""><img src="assets/images/logo 1.png" alt="logo"></a>
+          <div class="footer-newsletter">
+            <p>Newsletter</p>
+            <form>
+              <input
+                class="ip-box"
+                type="text"
+                placeholder="Enter your email here..."
+                required
+              />
+              <button class="search-btn">
+                <i class="fa-solid fa-envelope"></i>
+              </button>
+            </form>
+          </div>
+          <div class="footer-fl-us">
+              <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+            <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+          </div>
+        </div>
+        <div class=" col-sm-12 col-md-3">
+          <p>Infomations</p>
+          <ul>
+            <li>Contact us</li>
+            <li>Shipping & Return</li>
+            <li>Privacy notice</li>
+            <li>About us</li>
+          </ul>
+        </div>
+        <div class=" col-sm-12 col-md-3">
+          <p>My Account</p>
+          <ul>
+            <li>Customer info</li>
+            <li>Address</li>
+            <li>Order</li>
+            <li>Wishlist</li>
+          </ul>
+        </div>
+        
+       
+      </div>
+     </div>
+     <!-- homepages footer - end -->
+   </div>
+
+    <!-- Jquery -->
+    <script src="library/jquery-3.6.0.min.js"></script>
+    <!-- owl carousel- js -->
+    <script src="library/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Bootstrap js core -->
+    <script src="library/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- Homepages- js -->
+    <script src="assets/js/owlcarousel.js"></script>
+    <script src="../final-project/assets/js/index.js"></script>
+  </body>
+</html> 

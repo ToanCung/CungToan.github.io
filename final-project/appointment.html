@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <!-- Bootstrap css core -->
+ <link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css" />
+
+ <!-- owlcarousel -->
+   <link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.min.css">
+   <link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.min.css">
+ 
+   <!-- Icon - fontawesome -->
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+   integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+ />
+ <!-- appointment responsive -->
+ <link rel="stylesheet" href="assets/css/appointment-responsive.css">
+ <!-- appointment-- CSS -->
+ <link rel="stylesheet" href="assets/css/appointment.css" />
+</head>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header -start -->
+        <div class="header-container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href=""><img src="assets/images/logo.png" alt="logo"></a>
+                </div>
+                <ul class="col-md-8">
+                  <li onclick="location.href='../final-project/index.html'">Home</li>
+                  <li onclick="location.href='../final-project/products.html'">Shopping</li>
+                  <li onclick="location.href='../final-project/grooming.html'">Grooming</li>
+                  <li onclick="location.href='../final-project/contacts.html'">Contacts</li>
+                </ul>
+                <div class="col-md-2">
+                    <button class="btn" type="submit">
+                        <i class="fa-solid fa-user"></i>Login
+                      </button>
+                    <div class="fav-item-icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="cart-icon">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="navbar navbar-expand-sm\ navbar-dark">
+                    <div class="container-fluid">
+                        <a href=""><img src="assets/images/logo.png" alt="logo"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Shopping</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Favorites</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <!-- header -end -->
+        <!-- breadcrumb -->
+        <nav class="nav-bc" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Grooming</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Appointment</li>
+            </ol>
+          </nav>
+        <!-- calendar -start -->
+        <div class="calendar">
+            <div class="month"><a href="#" class="nav"><i class="fas fa-angle-left"></i></a><div>July <span class="year">2022</span></div><a href="#" class="nav"><i class="fas fa-angle-right"></i></a></div>
+            <div class="days">
+              <span>Mon</span>
+              <span>Tue</span>
+              <span>Wed</span>
+              <span>Thu</span>
+              <span>Fri</span>
+              <span>Sat</span>
+              <span>Sun</span>
+            </div>
+            <div class="dates">
+                <button>
+                  <time>1</time>
+                </button>
+                <button>
+                  <time>2</time>
+                </button>
+                <button>
+                  <time>3</time>
+                </button>
+                <button>
+                  <time>4</time>
+                </button>
+                <button>
+                  <time>5</time>
+                </button>
+                <button>
+                  <time>6</time>
+                </button>
+                <button>
+                  <time>7</time>
+                </button>
+                <button>
+                  <time>8</time>
+                </button>
+                <button>
+                  <time>9</time>
+                </button>
+                <button>
+                  <time>10</time>
+                </button>
+                <button>
+                  <time>11</time>
+                </button>
+                <button>
+                  <time>12</time>
+                </button>
+                <button>
+                  <time>13</time>
+                </button>
+                <button>
+                  <time>14</time>
+                </button>
+                <button>
+                  <time>15</time>
+                </button>
+                <button>
+                  <time>16</time>
+                </button>
+                <button>
+                  <time>17</time>
+                </button>
+                <button>
+                  <time>18</time>
+                </button>
+                <button>
+                  <time>19</time>
+                </button>
+                <button>
+                  <time>20</time>
+                </button>
+                <button>
+                  <time>21</time>
+                </button>
+                <button>
+                  <time>22</time>
+                </button>
+                <button>
+                  <time>23</time>
+                </button>
+                <button>
+                  <time>24</time>
+                </button>
+                <button>
+                  <time>25</time>
+                </button >
+                <button id="avail-oppointnent">
+                  <time>26</time>
+                </button>
+                <button>
+                  <time>27</time>
+                </button>
+                <button>
+                  <time>28</time>
+                </button>
+                <button>
+                  <time>29</time>
+                </button>
+                <button>
+                  <time>30</time>
+                </button>
+                <button>
+                  <time>31</time>
+                </button>
+            </div>
+            <div id="noti-event">
+                <p class="calendar-noti">Available Appointments</p>
+                <div class="row">
+                    <div class="col-6">
+                        <p>10:00 - 11:00 am</p>
+                        <span>2 spaces available</span>
+                    </div>
+                    <div class="col-6"><button onclick="location.href='../final-project/contacts.html'">Book Appointment</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p>2:00 - 3:00 pm</p>
+                        <span>3 spaces available</span>
+                    </div>
+                    <div class="col-6"><button onclick="location.href='../final-project/contacts.html'">Book Appointment</button></div>
+                </div>
+            </div>
+          </div>
+        <!-- calendar -end -->
+        <!--  footer - start -->
+        <div class="footer">
+            <div class="row">
+              <div class=" col-sm-12 col-md-6">
+                <a href=""><img src="assets/images/logo 1.png" alt="logo"></a>
+                <div class="footer-newsletter">
+                  <p>Newsletter</p>
+                  <form>
+                    <input
+                      class="ip-box"
+                      type="text"
+                      placeholder="Enter your email here..."
+                      required
+                    />
+                    <button class="search-btn">
+                      <i class="fa-solid fa-envelope"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="footer-fl-us">
+                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+              </div>
+              <div class=" col-sm-6 col-md-3">
+                <p>Infomations</p>
+                <ul>
+                  <li>Contact us</li>
+                  <li>Shipping & Return</li>
+                  <li>Privacy notice</li>
+                  <li>About us</li>
+                </ul>
+              </div>
+              <div class=" col-sm-6 col-md-3">
+                <p>My Account</p>
+                <ul>
+                  <li>Customer info</li>
+                  <li>Address</li>
+                  <li>Order</li>
+                  <li>Wishlist</li>
+                </ul>
+              </div>
+              
+             
+            </div>
+           </div>
+        <!--  footer - end -->
+    </div>
+    
+
+     <!-- Jquery -->
+     <script src="library/jquery-3.6.0.min.js"></script>
+     <!-- owl carousel- js -->
+     <script src="library/owlcarousel/owl.carousel.min.js"></script>
+     <!-- Bootstrap js core -->
+     <script src="library/bootstrap/js/bootstrap.bundle.js"></script>
+     <!-- Homepages- js -->
+     <script src="assets/js/owlcarousel.js"></script>
+     <script src="../final-project/assets/js/appointment.js"></script>
+</body>
+</html>

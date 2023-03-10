@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product detail</title>
+    
+    <!-- Bootstrap css core -->
+    <link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css" />
+
+    <!-- owlcarousel -->
+      <link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.min.css">
+    
+      <!-- Icon - fontawesome -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Homepages responsive -->
+    <link rel="stylesheet" href="assets/css/product-detail.css">
+    <!-- HomePage-- CSS -->
+    <link rel="stylesheet" href="assets/css/product-detail-res.css" />
+</head>
+<body>
+    <div class="wrapper">
+              <!-- Header-- start -->
+      <div class="header-container">
+        <div class="row">
+            <div class="col-md-2">
+                <a href="../final-project/index.html"><img src="assets/images/logo.png" alt="logo"></a>
+            </div>
+            <ul class="col-md-8">
+              <li onclick="location.href='../final-project/index.html'">Home</li>
+              <li onclick="location.href='../final-project/products.html'">Shopping</li>
+              <li onclick="location.href='../final-project/grooming.html'">Grooming</li>
+              <li onclick="location.href='../final-project/contacts.html'">Contacts</li>
+            </ul>
+            <div class="col-md-2">
+                <button onclick="location.href='../final-project/login.html'" class="btn" type="submit">
+                    <i class="fa-solid fa-user"></i>Login
+                  </button>
+                <div class="fav-item-icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="cart-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-expand-sm\ navbar-dark">
+                <div class="container-fluid">
+                    <a href=""><img src="assets/images/logo.png" alt="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Shopping</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item"">
+                        <a class="nav-link" href="../final-project/contacts.html">Contacts</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Favorites</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <!-- Header-- end -->
+    <!-- breadcumb-start -->
+    <nav class="nav-bc" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../final-project/index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="../final-project/products.html">Shopping</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Product detail</li>
+        </ol>
+      </nav>
+    <!-- breadcumb -end -->
+    <!-- product detail -start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <img src="../final-project/assets/images/hot-deal01.png" alt="">
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h4>NUTRABONE Chicken Snack</h4>
+                <p>$5.99</p>
+                <div class="numbs">
+                    <button  class="product-decrease">-</button>
+                    <span class="product-count"></span>
+                    <button class="product-increase">+</button>
+                </div>
+                <div class="size">
+                    <p>Size:</p>
+                    <span>0.5kg</span>
+                    <span>1kg</span>
+                    <span>5kg</span>
+                </div>
+                <div class="product-footer">
+                    <div class="footer-btn">                      
+                    <button class="add-btn">Add to cart</button>
+                    <button class="add-btn" onclick="location.href='../final-project/cart.html'">Buy now</button>
+                    </div>
+                    <div class="wishlist">
+                      <div class="icon-wrap"><i class="fa-solid fa-heart"></i></div> Add to wishlist</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- product detail -end -->
+    <!-- product info -start -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Description</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Review</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <ul>
+          <li>This easily-digestible dog food is crafted without corn, wheat or soy.
+          </li>
+          <li>High-protein recipe features real, nutrient-rich salmon as the very first ingredient.
+          </li>
+          <li>Formulated to nurture your sidekick’s sensitive skin and stomach.
+          </li>
+          <li>Includes omega-6 fatty acids to help support a healthy skin and coat.
+          </li>
+          <li>Fortified with live probiotics and prebiotic fiber for digestive and immune health.</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    </div>
+    <!-- product info -end -->
+    <!-- suggestion-start -->
+    <div class="hot-deal">
+        <h3>You may also like</h3>
+        <div id="owl-four" class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="product">
+                    <img src="../final-project/assets/images/hot-deal01.png" alt="">
+                    <p>NUTRABONE Chicken Snack</p>
+                    <span>$5.99</span>
+                    <div class="float-review">
+                        <div class="detail"><i class="fa-solid fa-eye"></i></div>
+                        <div class="space"></div>
+                        <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </div>
+                </div>
+                
+            <div class="item">
+                <div class="product">
+                    <img src="../final-project/assets/images/hot-deal02.png" alt="">
+                    <p>VEGEBRAND Orgo Dental Chew Beef Flavor</p>
+                    <span>$3.99</span>
+                    <div class="float-review">
+                        <div class="detail"><i class="fa-solid fa-eye"></i></div>
+                        <div class="space"></div>
+                        <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <img src="../final-project/assets/images/hot-deal03.png" alt="">
+                    <p>VEGEBRAND Spiral Beauty Lux Cout</p>
+                    <span>$13</span>
+                    <div class="float-review">
+                        <div class="detail"><i class="fa-solid fa-eye"></i></div>
+                        <div class="space"></div>
+                        <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <img src="../final-project/assets/images/hot-deal04.png" alt="">
+                    <p>Sausage JERHIGH Chicken</p>
+                    <span>$3</span>
+                    <div class="float-review">
+                        <div class="detail"><i class="fa-solid fa-eye"></i></div>
+                        <div class="space"></div>
+                        <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <img src="../final-project/assets/images/hot-deal05.png" alt="">
+                    <p>Pate IRIS Delicacy Tuna Crab</p>
+                    <span>$8</span>
+                    <div class="float-review">
+                        <div class="detail"><i class="fa-solid fa-eye"></i></div>
+                        <div class="space"></div>
+                        <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <img src="../final-project/assets/images/hot-deal06.png" alt="">
+                    <p>BBN Cheese Slices</p>
+                    <span>$4</span>
+                    <div class="float-review">
+                        <div class="detail"><i class="fa-solid fa-eye"></i></div>
+                        <div class="space"></div>
+                        <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <img src="../final-project/assets/images/hot-deal07.png" alt="">
+                    <p>TRIXIE Natural-Oil Shampoo for Dog</p>
+                    <span>$15.99</span>
+                    <div class="float-review">
+                        <div class="detail"><i class="fa-solid fa-eye"></i></div>
+                        <div class="space"></div>
+                        <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <img src="../final-project/assets/images/hot-deal08.png" alt="">
+                    <p>JOYCE & DOLLS Lotus Fluffy shamoo for Cat</p>
+                    <span>$13</span>
+                    <div class="float-review">
+                        <div class="detail"><i class="fa-solid fa-eye"></i></div>
+                        <div class="space"></div>
+                        <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <img src="../final-project/assets/images/hot-deal09.png" alt="">
+                    <p>BBN Whitening Shampoo</p>
+                    <span>$17.99</span>
+                    <div class="float-review">
+                        <div class="detail"><i class="fa-solid fa-eye"></i></div>
+                        <div class="space"></div>
+                        <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <img src="../final-project/assets/images/hot-deal10.png" alt="">
+                    <p>Pate IRIS Alice for Cat</p>
+                    <span>$4.99</span>
+                    <div class="float-review">
+                        <div class="detail"><i class="fa-solid fa-eye"></i></div>
+                        <div class="space"></div>
+                        <div class="add-to-cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- suggestion-end -->
+        <!-- products footer -start -->
+        <div class="footer">
+            <div class="row">
+              <div class=" col-sm-12 col-md-6">
+                <a href=""><img src="assets/images/logo 1.png" alt="logo"></a>
+                <div class="footer-newsletter">
+                  <p>Newsletter</p>
+                  <form>
+                    <input
+                      class="ip-box"
+                      type="text"
+                      placeholder="Enter your email here..."
+                      required
+                    />
+                    <button class="search-btn">
+                      <i class="fa-solid fa-envelope"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="footer-fl-us">
+                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+              </div>
+              <div class=" col-sm-6 col-md-3">
+                <p>Infomations</p>
+                <ul>
+                  <li>Contact us</li>
+                  <li>Shipping & Return</li>
+                  <li>Privacy notice</li>
+                  <li>About us</li>
+                </ul>
+              </div>
+              <div class=" col-sm-6 col-md-3">
+                <p>My Account</p>
+                <ul>
+                  <li>Customer info</li>
+                  <li>Address</li>
+                  <li>Order</li>
+                  <li>Wishlist</li>
+                </ul>
+              </div>
+              
+             
+            </div>
+           </div>
+           <!-- products footer - end -->
+    </div>
+
+
+    <!-- Jquery -->
+    <script src="library/jquery-3.6.0.min.js"></script>
+    <!-- owl carousel- js -->
+    <script src="library/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Bootstrap js core -->
+    <script src="library/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- Homepages- js -->
+    <script src="assets/js/owlcarousel.js"></script>
+    <script src="../final-project/assets/js/product-detail.js"></script>
+</body>
+</html>

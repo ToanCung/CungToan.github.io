@@ -1,0 +1,77 @@
+@media only screen and (max-width:767px){
+    .header-container .row:first-child{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:576px){
+    
+    .footer .row .col-md-3{
+        margin-top:10px;
+        align-items: center;
+    }
+    .header-container{
+        margin: 0;
+    }
+    .shopping-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px !important;
+    }
+    .banner-content{
+        width: 80% !important;
+        padding:0 !important;
+    }
+    .banner-content p{
+        font-size: 32px !important;
+    }
+    .banner-content button{
+        width: 150px !important;
+    }
+}
+@media only screen and (min-width:767px) {
+    .header-container .row:last-child, .header-container nav.nav-bar{
+        display: none;
+    }
+    .header-container{
+        margin-top:5px;
+    }
+    .footer-fl-us{
+        justify-content: center;
+    }
+    .blog-container .blog-footer a{
+        padding-right: 46px;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 1080px){
+    .header-container .row .col-md-2:last-child{
+        padding-left: 0;
+    }
+    .header-container .col-md-2:last-child .btn{
+        font-size: 14px !important;
+        padding: 0 5px;
+    }
+    .header-container .col-md-2:first-child{
+        transform: scale(0.76);
+    }
+    .banner-box .shopping-banner .banner-content{
+        width: 60% !important;
+    }
+    .banner-box .shopping-banner .banner-content p{
+        font-size: 30px !important;
+    }
+    .banner-box .shopping-banner{
+        height: 450px;
+    }
+    .banner-box .shopping-banner{
+        height: 350px !important;
+    }
+    .owl-theme .owl-nav{
+        top: -200px !important;
+    }
+    .banner-box .shopping-banner .banner-content button{
+        width: 150px !important;
+        height: 40px !important;
+    }
+}

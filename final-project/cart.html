@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <!-- Bootstrap css core -->
+    <link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css" />
+
+    <!-- owlcarousel -->
+      <link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.min.css">
+    
+      <!-- Icon - fontawesome -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Homepages responsive -->
+    <link rel="stylesheet" href="assets/css/cart-responsive.css">
+    <!-- HomePage-- CSS -->
+    <link rel="stylesheet" href="assets/css/cart.css" />
+</head>
+<body>
+    <div class="wrapper">
+    <!-- Header-- start -->
+        <div class="header-container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="../final-project/index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                </div>
+                <ul class="col-md-8">
+                  <li onclick="location.href='../final-project/index.html'">Home</li>
+                  <li onclick="location.href='../final-project/products.html'">Shopping</li>
+                  <li onclick="location.href='../final-project/grooming.html'">Grooming</li>
+                  <li onclick="location.href='../final-project/contacts.html'">Contacts</li>
+                </ul>
+                <div class="col-md-2">
+                    <button onclick="location.href='../final-project/login.html'" class="btn" type="submit">
+                        <i class="fa-solid fa-user"></i>Login
+                      </button>
+                    <div class="fav-item-icon">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="cart-icon">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="navbar navbar-expand-sm\ navbar-dark">
+                    <div class="container-fluid">
+                        <a href=""><img src="assets/images/logo.png" alt="logo"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="../final-project/products.html">Shopping</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../final-project/blogs.html">Blog</a>
+                          </li>
+                          <li class="nav-item"">
+                            <a class="nav-link" href="../final-project/contacts.html">Contacts</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../final-project/login.html">Login</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Favorites</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    <!-- Header-- end -->
+    <!-- breadcrumb-start -->
+    <nav class="nav-bc" style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../final-project/index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Cart</li>
+        </ol>
+      </nav>
+    <!-- breadcrumb -end -->
+    <!-- cart -start -->
+      <div class="cart-container">
+        <h4>Shopping cart</h4>
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <div class="row">
+                    <div class="col-6">
+                        <p>Product</p>
+                    </div>
+                    <div class="col-2">
+                        <p>Price</p>
+                    </div>
+                    <div class="col-2">
+                        <p>Quantity</p>
+                    </div>
+                    <div class="col-2">
+                        <p>Subtotal</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <img src="../final-project/assets/images/hot-deal01.png" alt="item">
+                        <p>NUTRABONE Chicken Snack</p>
+                    </div>
+                    <div class="col-sm-12 col-md-2">
+                        <p>$5.99</p>
+                    </div>
+                    <div class="col-sm-12 col-md-2">
+                        <p>1</p>
+                    </div>
+                    <div class="col-sm-12 col-md-2">
+                        <p>$5.99</p>
+                        <div class="cart-icon"><i class="fa-solid fa-xmark"></i></div>
+                    </div>
+                </div>
+                
+                <div class="cart-footer">
+                        <form>
+                            <div class="coupon">
+                                <input type="text" placeholder="Coupon code">
+                            <button type="submit">Apply coupon</button>
+                            </div>
+                            <button onclick="location.href='../final-project/products.html'">Continue Shopping</button>
+                        </form>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="proceed-box">
+                    <div class="cart-title"><p>Cart totals</p></div>
+                    <div class="price">
+                        <p>Subtotal</p>
+                        <p>$5.99</p>
+                    </div>
+                    <div class="shipping-cost">
+                        <p>Shipping</p>
+                        <p>$3.99</p>
+                    </div>
+                    <div class="total-price">
+                        <p>Total</p>
+                        <p>$9.98</p>
+                    </div>
+                    <button onclick="location.href='../final-project/checkout.html'">Proceed to checkout</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!-- cart -end -->
+    </div>
+         <!-- homepages footer -start -->
+         <div class="footer">
+            <div class="row">
+              <div class=" col-sm-12 col-md-6">
+                <a href=""><img src="assets/images/logo 1.png" alt="logo"></a>
+                <div class="footer-newsletter">
+                  <p>Newsletter</p>
+                  <form>
+                    <input
+                      class="ip-box"
+                      type="text"
+                      placeholder="Enter your email here..."
+                      required
+                    />
+                    <button class="search-btn">
+                      <i class="fa-solid fa-envelope"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="footer-fl-us">
+                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+              </div>
+              <div class=" col-sm-12 col-md-3">
+                <p>Infomations</p>
+                <ul>
+                  <li>Contact us</li>
+                  <li>Shipping & Return</li>
+                  <li>Privacy notice</li>
+                  <li>About us</li>
+                </ul>
+              </div>
+              <div class=" col-sm-12 col-md-3">
+                <p>My Account</p>
+                <ul>
+                  <li>Customer info</li>
+                  <li>Address</li>
+                  <li>Order</li>
+                  <li>Wishlist</li>
+                </ul>
+              </div>
+              
+             
+            </div>
+           </div>
+           <!-- homepages footer - end -->
+
+
+     <!-- Jquery -->
+     <script src="library/jquery-3.6.0.min.js"></script>
+     <!-- owl carousel- js -->
+     <script src="library/owlcarousel/owl.carousel.min.js"></script>
+     <!-- Bootstrap js core -->
+     <script src="library/bootstrap/js/bootstrap.bundle.js"></script>
+     <!-- Homepages- js -->
+     <script src="assets/js/owlcarousel.js"></script>
+     <script src="../final-project/assets/js/appointment.js"></script>
+</body>
+</html>
